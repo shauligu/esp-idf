@@ -108,7 +108,7 @@ This is the set of API functions for working with data in flash:
 - :cpp:func:`esp_flash_write` writes data from RAM to flash
 - :cpp:func:`esp_flash_erase_region` erases specific region of flash
 - :cpp:func:`esp_flash_erase_chip` erases the whole flash
-- :cpp:func:`esp_flash_get_chip_size` returns flash chip size, in bytes, as configured in menuconfig
+- :cpp:func:`esp_flash_get_size` returns flash chip size, in bytes, as configured in menuconfig
 
 Generally, try to avoid using the raw SPI flash functions to the "main" SPI flash chip in favour of :ref:`partition-specific functions <flash-partition-apis>`.
 
